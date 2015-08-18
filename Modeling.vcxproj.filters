@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="vscene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GLee.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vmesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vrender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vnodeselector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vnode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vmatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vimport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vglobaltools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcontrol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLee.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vaxisangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vboundbox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcamera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcontrol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vglobaltools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vimport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vmatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vmesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vnode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vnodeselector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vpoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vrender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vscene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{84b3fd5a-7ddd-4db9-9011-7d8866f6574b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{b7d32ef3-637a-44e1-a9c0-327a30acc8ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
