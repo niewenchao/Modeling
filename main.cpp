@@ -120,14 +120,14 @@ void SetupRC()
 
 
 	//VImport::GetInstance()->DoImport("I:/毕设/VCC例子1/海龟/triangle.VCC");
-	VImport::GetInstance()->DoImport("E:/VCC程序/模型融合/模型融合模型/VCC模型部件库/模型匹配模型实验数据/haiguimesh.VCC");
+	VImport::GetInstance()->DoImport("Data/haiguimesh.VCC");
 	VNode* pNode = VScene::GetInstance()->GetRootNode()->GetChildNode(0);
 	/*pNode->Scale(VVector3(0.001,0.001,0.001));
 	pNode->Rotate(VAxisAngle(VVector3(1,0,0),-90*M_PI/180));
 	pNode->Rotate(VAxisAngle(VVector3(0,0,1),90*M_PI/180));
 	pNode->Move(VVector3(0.0,-1.0,0.0));*/
 	//pNode->GetMesh()->SetShowMode(MESH_POINT_LINE_SOLID);
-	ReadCgal("F:/programming software/cgal-releases-CGAL-4.7-alpha1/build/examples/Surface_mesh_skeletonization/skel.cgal");
+	//ReadCgal("F:/programming software/cgal-releases-CGAL-4.7-alpha1/build/examples/Surface_mesh_skeletonization/skel.cgal");
 
 }
 
