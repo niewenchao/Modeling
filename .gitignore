@@ -3,5 +3,7 @@
 /Debug/
 /ipch/
 *.bak
+*.sdf
+*.opensdf
 
 
