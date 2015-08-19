@@ -1,9 +1,10 @@
-#忽略
-*.[oa]
+#VS工程忽略文件
 /Debug/
 /ipch/
 *.bak
 *.sdf
 *.opensdf
+*.suo
+*.vcxproj.user
 
 
