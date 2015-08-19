@@ -15,9 +15,9 @@
 
 使用须知：
 -------
-这个工程是在windows平台VS2010下进行编译的，使用了opengl 的GLUT库，使用的时候下载这个工程到本地，用VS2010或更高版本打开.vcxproj 工程文件，并配置好GLUT库文件跟头文件即可正常使用<br>
+这个工程是在windows平台VS2010下进行编译的，使用了opengl的GLUT库，使用的时候下载这个工程到本地，用VS2010或更高版本打开.vcxproj 工程文件，并配置好GLUT库文件跟头文件即可正常使用<br>
 使用git下载命令：<br>
-'''Bash
+```Bash
 git clone https://github.com/niewenchao/Modeling
-'''
+```
 
