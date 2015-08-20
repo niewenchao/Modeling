@@ -1,87 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="vscene.cpp">
+    <ClCompile Include="src\vscene.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GLee.c">
+    <ClCompile Include="src\GLee.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vmesh.cpp">
+    <ClCompile Include="src\vmesh.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vrender.cpp">
+    <ClCompile Include="src\vrender.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vnodeselector.cpp">
+    <ClCompile Include="src\vnodeselector.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vnode.cpp">
+    <ClCompile Include="src\vnode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vmatrix.cpp">
+    <ClCompile Include="src\vmatrix.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vimport.cpp">
+    <ClCompile Include="src\vimport.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vglobaltools.cpp">
+    <ClCompile Include="src\vglobaltools.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vcontrol.cpp">
+    <ClCompile Include="src\vcontrol.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="define.h">
+    <ClInclude Include="src\define.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GLee.h">
+    <ClInclude Include="src\GLee.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vaxisangle.h">
+    <ClInclude Include="src\vaxisangle.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vboundbox.h">
+    <ClInclude Include="src\vboundbox.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vcamera.h">
+    <ClInclude Include="src\vcamera.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vcontrol.h">
+    <ClInclude Include="src\vcontrol.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vface.h">
+    <ClInclude Include="src\vface.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vglobaltools.h">
+    <ClInclude Include="src\vglobaltools.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vimport.h">
+    <ClInclude Include="src\vimport.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vmatrix.h">
+    <ClInclude Include="src\vmatrix.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vmesh.h">
+    <ClInclude Include="src\vmesh.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vnode.h">
+    <ClInclude Include="src\vnode.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vnodeselector.h">
+    <ClInclude Include="src\vnodeselector.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vpoint.h">
+    <ClInclude Include="src\vpoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vrender.h">
+    <ClInclude Include="src\vrender.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="vscene.h">
+    <ClInclude Include="src\vscene.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
