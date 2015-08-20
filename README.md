@@ -60,4 +60,8 @@
 ```Bash
 git clone https://github.com/niewenchao/Modeling
 ```
+代码结构UML
+---------------
+![](https://github.com/niewenchao/Modeling/raw/master/Modeling.jpg) 
+详细说明见博客：[我的博客](http://www.darksea.cn/modeling/ "悬停显示") 
 
