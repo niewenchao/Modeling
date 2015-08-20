@@ -11,6 +11,9 @@ CREATED BY:  [8/17/2015 niewenchao]
 #include <iostream>
 #include "vmesh.h"
 #include "vscene.h"
+#include <assimp/Importer.hpp>      // C++ importer interface
+#include <scene.h>       // Output data structure
+#include <assimp/postprocess.h> // Post processing flags
 using std::string;
 class VImport
 {

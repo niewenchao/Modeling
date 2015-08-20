@@ -11,7 +11,7 @@ VImport* VImport::m_pImport = NULL;
 bool VImport::DoImport(string fileName)
 {
 	string ext = fileName.substr(fileName.rfind('.')+1);
-	if (ext.compare("VCC") || ext.compare("vcc"))
+	if (ext == "VCC" || ext  == "vcc")
 	{
 		FILE* fp = fopen(fileName.c_str(), "r+");
 		if (NULL == fp) return false;
@@ -42,6 +42,39 @@ bool VImport::DoImport(string fileName)
 	}
 	else
 	{
+		Assimp::Importer Importer; 
+		const aiScene* pScene = Importer.ReadFile(fileName,aiProcess_JoinIdenticalVertices); 
+		if (pScene)   
+		{ 
+			for (int k=0;k<pScene->mNumMeshes;k++)
+			{
+
+				const aiMesh* paiMesh = pScene->mMeshes[k];
+				VMesh* mesh = new VMesh;						//新建一个三角风格的对象
+				VNode* node = m_pScence->CreateNode(mesh);				//创建一个节点并挂载到场景跟节点中
+				VMatrix3* pmat = new VMatrix3;
+				node->GetTMController()->SetTM(pmat);
+				int vNum = paiMesh->mNumVertices;
+				mesh->SetNumVerts(vNum);	
+				for (int i=0;i<vNum;i++)
+				{
+					mesh->SetVert(i,paiMesh->mVertices[i].x,paiMesh->mVertices[i].y,paiMesh->mVertices[i].z);									//设置顶点坐标
+				}
+				int fNum = paiMesh->mNumFaces;
+				mesh->SetNumFaces(fNum);										//设置网格面片数目
+				for (int i=0;i<fNum;i++)
+				{
+					mesh->SetFace(i, (paiMesh->mFaces[i].mIndices[0]), (paiMesh->mFaces[i].mIndices[1]), (paiMesh->mFaces[i].mIndices[2]));
+				}
+				mesh->ComputeBoundBox();
+			}
+
+		}
+		else 
+		{ 
+			printf("Error parsing '%s': '%s'\n", fileName.c_str(), Importer.GetErrorString()); 
+			return false;
+		} 
 		return true;
 	}
 }
