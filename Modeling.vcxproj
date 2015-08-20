@@ -75,35 +75,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GLee.c" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="vcontrol.cpp" />
-    <ClCompile Include="vglobaltools.cpp" />
-    <ClCompile Include="vimport.cpp" />
-    <ClCompile Include="vmatrix.cpp" />
-    <ClCompile Include="vmesh.cpp" />
-    <ClCompile Include="vnode.cpp" />
-    <ClCompile Include="vnodeselector.cpp" />
-    <ClCompile Include="vrender.cpp" />
-    <ClCompile Include="vscene.cpp" />
+    <ClCompile Include="src\GLee.c" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\vcontrol.cpp" />
+    <ClCompile Include="src\vglobaltools.cpp" />
+    <ClCompile Include="src\vimport.cpp" />
+    <ClCompile Include="src\vmatrix.cpp" />
+    <ClCompile Include="src\vmesh.cpp" />
+    <ClCompile Include="src\vnode.cpp" />
+    <ClCompile Include="src\vnodeselector.cpp" />
+    <ClCompile Include="src\vrender.cpp" />
+    <ClCompile Include="src\vscene.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="define.h" />
-    <ClInclude Include="GLee.h" />
-    <ClInclude Include="vaxisangle.h" />
-    <ClInclude Include="vboundbox.h" />
-    <ClInclude Include="vcamera.h" />
-    <ClInclude Include="vcontrol.h" />
-    <ClInclude Include="vface.h" />
-    <ClInclude Include="vglobaltools.h" />
-    <ClInclude Include="vimport.h" />
-    <ClInclude Include="vmatrix.h" />
-    <ClInclude Include="vmesh.h" />
-    <ClInclude Include="vnode.h" />
-    <ClInclude Include="vnodeselector.h" />
-    <ClInclude Include="vpoint.h" />
-    <ClInclude Include="vrender.h" />
-    <ClInclude Include="vscene.h" />
+    <ClInclude Include="src\define.h" />
+    <ClInclude Include="src\GLee.h" />
+    <ClInclude Include="src\vaxisangle.h" />
+    <ClInclude Include="src\vboundbox.h" />
+    <ClInclude Include="src\vcamera.h" />
+    <ClInclude Include="src\vcontrol.h" />
+    <ClInclude Include="src\vface.h" />
+    <ClInclude Include="src\vglobaltools.h" />
+    <ClInclude Include="src\vimport.h" />
+    <ClInclude Include="src\vmatrix.h" />
+    <ClInclude Include="src\vmesh.h" />
+    <ClInclude Include="src\vnode.h" />
+    <ClInclude Include="src\vnodeselector.h" />
+    <ClInclude Include="src\vpoint.h" />
+    <ClInclude Include="src\vrender.h" />
+    <ClInclude Include="src\vscene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
