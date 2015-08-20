@@ -43,7 +43,7 @@
 * Terragen Terrain ( .ter )
 * 3D GameStudio (3DGS) ( .mdl )
 * 3D GameStudio (3DGS) Terrain ( .hmp )
-* Izware Nendo ( .ndo )
+* Izware Nendo ( .ndo )<br>
 4.允许一个三维模型里有很多的part<br>
 5.支持模型拾取，选中模型会显示包围盒<br>
 6.三种网格显示方式 实体显示、点显示、线显示 以及它们的组合显示<br>
